@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Bullet.h" />
+    <ClInclude Include="DoubleBuffer.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="HiyoEngine.h" />
@@ -139,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="DoubleBuffer.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="HiyoEngine.cpp" />
     <ClCompile Include="Input.cpp" />

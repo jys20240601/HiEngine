@@ -1,5 +1,6 @@
 ﻿#include "framework.h"
 #include "HiyoEngine.h"
+#include "DoubleBuffer.h"
 #include "Player.h"
 #include "Bullet.h"
 #include "Monster.h"
@@ -8,6 +9,8 @@
 #define MAX_LOADSTRING 100
 
 //전역변수 포인터
+
+DoubleBuffer g_DoubleBuffer;
 
 Player* g_pPlayer = nullptr;
 Monster* g_pMonster = nullptr;
@@ -101,6 +104,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         {
             g_pPlayer = new Player(100, 100, 50, 50);
             g_pMonster = new Monster(200, 300, 50, 50);
+            g_DoubleBuffer.Initialize(hWnd, 800, 600);
             SetTimer(hWnd, 1, 16, NULL);
 
             return 0;
@@ -111,9 +115,14 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         if (g_pPlayer)
         {
             g_pPlayer->Update();
-            g_pMonster->Update();
-            InvalidateRect(hWnd, NULL, FALSE);
         }
+
+        if (g_pMonster)
+        {
+            g_pMonster->Update();
+        }
+
+        InvalidateRect(hWnd, NULL, FALSE);
 
         return 0;
     }
@@ -123,11 +132,18 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             PAINTSTRUCT ps;
             HDC hdc = BeginPaint(hWnd, &ps);
 
+            g_DoubleBuffer.BeginDraw();
+            HDC backDC = g_DoubleBuffer.GetBackDC();
+
             if (g_pPlayer)
             {
-                g_pPlayer->Render(hdc);
-                g_pMonster->Render(hdc);
+                g_pPlayer->Render(backDC);
             }
+            if (g_pMonster)
+            {
+                g_pMonster->Render(backDC);
+            }
+            g_DoubleBuffer.EndDraw();
 
             EndPaint(hWnd, &ps);
 
@@ -137,11 +153,18 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_DESTROY:
 
         KillTimer(hWnd, 1);
+
         if (g_pPlayer)
         {
             delete g_pPlayer;
             g_pPlayer = nullptr;
         }
+        if (g_pMonster)
+        {
+            delete g_pMonster;
+            g_pMonster = nullptr;
+        }
+        g_DoubleBuffer.Cleanup();
 
         PostQuitMessage(0);
         break;

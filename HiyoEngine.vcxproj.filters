@@ -57,6 +57,9 @@
     <ClInclude Include="framework.h">
       <Filter>헤더 파일\Common</Filter>
     </ClInclude>
+    <ClInclude Include="DoubleBuffer.h">
+      <Filter>헤더 파일\Parents</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bullet.cpp">
@@ -76,6 +79,9 @@
     </ClCompile>
     <ClCompile Include="Monster.cpp">
       <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBuffer.cpp">
+      <Filter>소스 파일\Parent</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

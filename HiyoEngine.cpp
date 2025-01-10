@@ -105,6 +105,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         {
             g_pPlayer = new Player(100, 100, 50, 50);
             g_pMonster = new Monster(200, 300, 50, 50);
+
             g_DoubleBuffer.Initialize(hWnd, 800, 600);
 
             SceneManager::GetInstance().ChangeScene(SceneManager::SceneType::Title);

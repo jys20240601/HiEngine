@@ -7,8 +7,28 @@
       "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:HiyoEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\DoubleBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:DoubleBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\GameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:GameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\TitleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:TitleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\EndScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:EndScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\DoubleBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,16 +39,20 @@
       "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\DoubleBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:DoubleBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|solutionrelative:GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7225525-6C2B-499E-9DD2-957B29202CF4}|HiyoEngine.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -78,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -87,19 +111,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DoubleBuffer.cpp",
-              "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\DoubleBuffer.cpp",
-              "RelativeDocumentMoniker": "DoubleBuffer.cpp",
-              "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\DoubleBuffer.cpp",
-              "RelativeToolTip": "DoubleBuffer.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Title": "SceneManager.cpp",
+              "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\SceneManager.cpp",
+              "RelativeDocumentMoniker": "SceneManager.cpp",
+              "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\SceneManager.cpp",
+              "RelativeToolTip": "SceneManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-10T19:11:57.039Z",
+              "WhenOpened": "2025-01-10T19:44:36.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SceneManager.h",
+              "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\SceneManager.h",
+              "RelativeDocumentMoniker": "SceneManager.h",
+              "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\SceneManager.h",
+              "RelativeToolTip": "SceneManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-10T19:43:27.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EndScene.h",
+              "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\EndScene.h",
+              "RelativeDocumentMoniker": "EndScene.h",
+              "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\EndScene.h",
+              "RelativeToolTip": "EndScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-10T19:40:35.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameScene.h",
+              "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\GameScene.h",
+              "RelativeDocumentMoniker": "GameScene.h",
+              "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\GameScene.h",
+              "RelativeToolTip": "GameScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-10T19:40:29.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TitleScene.h",
+              "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\TitleScene.h",
+              "RelativeDocumentMoniker": "TitleScene.h",
+              "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\TitleScene.h",
+              "RelativeToolTip": "TitleScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-10T19:40:19.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Scene.h",
+              "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Scene.h",
+              "RelativeDocumentMoniker": "Scene.h",
+              "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Scene.h",
+              "RelativeToolTip": "Scene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-10T19:39:19.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DoubleBuffer.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\DoubleBuffer.h",
               "RelativeDocumentMoniker": "DoubleBuffer.h",
@@ -112,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Monster.cpp",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Monster.cpp",
               "RelativeDocumentMoniker": "Monster.cpp",
@@ -124,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Monster.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Monster.h",
               "RelativeDocumentMoniker": "Monster.h",
@@ -136,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "Bullet.cpp",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Bullet.cpp",
               "RelativeDocumentMoniker": "Bullet.cpp",
@@ -148,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Bullet.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Bullet.h",
               "RelativeDocumentMoniker": "Bullet.h",
@@ -160,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "targetver.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\targetver.h",
               "RelativeDocumentMoniker": "targetver.h",
@@ -172,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Resource.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Resource.h",
               "RelativeDocumentMoniker": "Resource.h",
@@ -184,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "HiyoEngine.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\HiyoEngine.h",
               "RelativeDocumentMoniker": "HiyoEngine.h",
@@ -196,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Player.cpp",
               "RelativeDocumentMoniker": "Player.cpp",
@@ -204,12 +293,11 @@
               "RelativeToolTip": "Player.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-10T02:13:44.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T02:13:44.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Player.h",
               "RelativeDocumentMoniker": "Player.h",
@@ -221,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Input.cpp",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Input.cpp",
               "RelativeDocumentMoniker": "Input.cpp",
@@ -229,12 +317,11 @@
               "RelativeToolTip": "Input.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-10T01:59:31.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T01:59:31.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Input.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\Input.h",
               "RelativeDocumentMoniker": "Input.h",
@@ -246,7 +333,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
+              "Title": "HiyoEngine.cpp",
+              "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\HiyoEngine.cpp",
+              "RelativeDocumentMoniker": "HiyoEngine.cpp",
+              "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\HiyoEngine.cpp",
+              "RelativeToolTip": "HiyoEngine.cpp",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwMQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-10T00:51:47.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DoubleBuffer.cpp",
+              "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\DoubleBuffer.cpp",
+              "RelativeDocumentMoniker": "DoubleBuffer.cpp",
+              "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\DoubleBuffer.cpp",
+              "RelativeToolTip": "DoubleBuffer.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-10T19:11:57.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "framework.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\framework.h",
               "RelativeDocumentMoniker": "framework.h",
@@ -258,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "GameObject.cpp",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\GameObject.cpp",
               "RelativeDocumentMoniker": "GameObject.cpp",
@@ -271,27 +383,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "GameObject.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\GameObject.h",
               "RelativeDocumentMoniker": "GameObject.h",
               "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\GameObject.h",
               "RelativeToolTip": "GameObject.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAHAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-10T00:53:13.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HiyoEngine.cpp",
-              "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\HiyoEngine.cpp",
-              "RelativeDocumentMoniker": "HiyoEngine.cpp",
-              "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\HiEngine\\HiyoEngine.cpp",
-              "RelativeToolTip": "HiyoEngine.cpp",
-              "ViewState": "AgIAADIAAAAAAAAAAAAuwEgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-10T00:51:47.309Z",
+              "WhenOpened": "2025-01-10T00:53:13.642Z",
               "EditorCaption": ""
             }
           ]

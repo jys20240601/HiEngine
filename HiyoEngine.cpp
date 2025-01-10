@@ -4,6 +4,7 @@
 #include "Player.h"
 #include "Bullet.h"
 #include "Monster.h"
+#include "SceneManager.h"
 #include <vector> 
 
 #define MAX_LOADSTRING 100
@@ -105,6 +106,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             g_pPlayer = new Player(100, 100, 50, 50);
             g_pMonster = new Monster(200, 300, 50, 50);
             g_DoubleBuffer.Initialize(hWnd, 800, 600);
+
+            SceneManager::GetInstance().ChangeScene(SceneManager::SceneType::Title);
+
             SetTimer(hWnd, 1, 16, NULL);
 
             return 0;
@@ -121,6 +125,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         {
             g_pMonster->Update();
         }
+
+        SceneManager::GetInstance().Update();
 
         InvalidateRect(hWnd, NULL, FALSE);
 
@@ -143,6 +149,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             {
                 g_pMonster->Render(backDC);
             }
+
+            SceneManager::GetInstance().Render(backDC);
+
             g_DoubleBuffer.EndDraw();
 
             EndPaint(hWnd, &ps);

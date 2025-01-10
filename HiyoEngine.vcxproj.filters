@@ -28,6 +28,12 @@
     <Filter Include="헤더 파일\Common">
       <UniqueIdentifier>{732c7e0a-0778-45e1-9ede-957db24e5194}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Common">
+      <UniqueIdentifier>{44d9ccb4-9122-4046-a224-8e660629ef3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Scenes">
+      <UniqueIdentifier>{cd59db16-74c7-47c5-bd1e-593eeecb6999}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HiyoEngine.h">
@@ -38,9 +44,6 @@
     </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>헤더 파일\GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Input.h">
-      <Filter>헤더 파일\Parents</Filter>
     </ClInclude>
     <ClInclude Include="GameObject.h">
       <Filter>헤더 파일\Parents</Filter>
@@ -58,7 +61,25 @@
       <Filter>헤더 파일\Common</Filter>
     </ClInclude>
     <ClInclude Include="DoubleBuffer.h">
+      <Filter>헤더 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>헤더 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
       <Filter>헤더 파일\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>헤더 파일\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>헤더 파일\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>헤더 파일\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>헤더 파일\Common</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -67,9 +88,6 @@
     </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>소스 파일\GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Input.cpp">
-      <Filter>소스 파일\Parent</Filter>
     </ClCompile>
     <ClCompile Include="GameObject.cpp">
       <Filter>소스 파일\Parent</Filter>
@@ -81,7 +99,13 @@
       <Filter>소스 파일\GameObject</Filter>
     </ClCompile>
     <ClCompile Include="DoubleBuffer.cpp">
-      <Filter>소스 파일\Parent</Filter>
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Common</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

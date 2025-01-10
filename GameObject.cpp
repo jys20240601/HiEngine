@@ -18,7 +18,7 @@ void GameObject::Update()
 
 void GameObject::Render(HDC hdc)
 {
-
+	Rectangle(hdc, mX, mY, mX + mWidth, mY + mHeight);
 }
 
 void GameObject::SetPosition(int x, int y)

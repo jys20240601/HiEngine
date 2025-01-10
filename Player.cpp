@@ -2,8 +2,14 @@
 #include "Input.h"
 
 Player::Player(int x, int y, int width, int height)
-    : GameObject(x, y, width, height) {}
+    : GameObject(x, y, width, height) 
+{
+}
 
+void Player::Fire() 
+{
+    mBullets.push_back(new Bullet(GetPositionX() + GetWidth() / 2 - 2, GetPositionY(), BULLET_SPEED));
+}
 void Player::Update()
 {
     if (Input::IsKeyPressed(VK_LEFT))
@@ -22,9 +28,24 @@ void Player::Update()
     {
         SetPosition(GetPositionX(), GetPositionY() + 5);
     }
+
+    if (Input::IsKeyPressed(VK_SPACE)) 
+{
+        Fire();
+    }
+
+    for (auto bullet : mBullets)
+    {
+        bullet->Update();
+    }
 }
 
 void Player::Render(HDC hdc)
 {
-    Rectangle(hdc, GetPositionX(), GetPositionY(), GetPositionX() + GetWidth(), GetPositionY() + GetHeight());
+    GameObject::Render(hdc);
+
+    for (auto bullet : mBullets)
+    {
+        bullet->Render(hdc);
+    }
 }

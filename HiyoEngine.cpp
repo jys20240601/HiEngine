@@ -1,6 +1,8 @@
 ﻿#include "framework.h"
 #include "HiyoEngine.h"
 #include "Player.h"
+#include "Bullet.h"
+#include <vector> 
 
 #define MAX_LOADSTRING 100
 

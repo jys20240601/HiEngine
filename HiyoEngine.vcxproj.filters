@@ -25,6 +25,9 @@
     <Filter Include="헤더 파일\Parents">
       <UniqueIdentifier>{54eba882-2d3a-40dc-a8bb-f3645701ea80}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\Common">
+      <UniqueIdentifier>{732c7e0a-0778-45e1-9ede-957db24e5194}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HiyoEngine.h">
@@ -39,17 +42,20 @@
     <ClInclude Include="Input.h">
       <Filter>헤더 파일\Parents</Filter>
     </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>헤더 파일\Parents</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>헤더 파일\Parents</Filter>
-    </ClInclude>
     <ClInclude Include="GameObject.h">
       <Filter>헤더 파일\Parents</Filter>
     </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\Common</Filter>
+    </ClInclude>
     <ClInclude Include="framework.h">
-      <Filter>헤더 파일\Parents</Filter>
+      <Filter>헤더 파일\Common</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -67,6 +73,9 @@
     </ClCompile>
     <ClCompile Include="HiyoEngine.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\GameObject</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

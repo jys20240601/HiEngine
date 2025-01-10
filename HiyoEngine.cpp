@@ -2,6 +2,7 @@
 #include "HiyoEngine.h"
 #include "Player.h"
 #include "Bullet.h"
+#include "Monster.h"
 #include <vector> 
 
 #define MAX_LOADSTRING 100
@@ -9,6 +10,7 @@
 //전역변수 포인터
 
 Player* g_pPlayer = nullptr;
+Monster* g_pMonster = nullptr;
 
 HINSTANCE hInst;
 WCHAR szTitle[MAX_LOADSTRING];
@@ -98,6 +100,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_CREATE:
         {
             g_pPlayer = new Player(100, 100, 50, 50);
+            g_pMonster = new Monster(200, 300, 50, 50);
             SetTimer(hWnd, 1, 16, NULL);
 
             return 0;
@@ -108,6 +111,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         if (g_pPlayer)
         {
             g_pPlayer->Update();
+            g_pMonster->Update();
             InvalidateRect(hWnd, NULL, FALSE);
         }
 
@@ -122,6 +126,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             if (g_pPlayer)
             {
                 g_pPlayer->Render(hdc);
+                g_pMonster->Render(hdc);
             }
 
             EndPaint(hWnd, &ps);
